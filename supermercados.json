@@ -1,0 +1,116 @@
+{
+    "supermercados": [
+        {
+           "nombre": "Mercadona",
+           "direccion": "Calle del Sol, 25",
+           "geolocalizacion": {
+              "latitud": 40.416775,
+              "longitud": -3.703790
+           },
+           "productos": [
+              {
+                 "nombre": "Leche Pascual",
+                 "oferta": false,
+                 "vigencia_oferta": null,
+                 "habitual": true,
+                 "cantidad": 1,
+                 "unidad_medida": "litros",
+                 "precio": 1.20,
+                 "adquirido": true
+              },
+              {
+                 "nombre": "Pan de molde Bimbo",
+                 "oferta": true,
+                 "vigencia_oferta": {
+                    "inicio": "2023-04-15",
+                    "fin": "2023-04-22"
+                 },
+                 "habitual": true,
+                 "cantidad": 2,
+                 "unidad_medida": "unidades",
+                 "precio": 1.50,
+                 "adquirido": false
+              },
+              {
+                 "nombre": "Huevos camperos",
+                 "oferta": true,
+                 "vigencia_oferta": {
+                    "inicio": "2023-04-10",
+                    "fin": "2023-04-30"
+                 },
+                 "habitual": false,
+                 "cantidad": 1,
+                 "unidad_medida": "docenas",
+                 "precio": 3.50,
+                 "adquirido": false
+              },
+              {
+                 "nombre": "Cerveza San Miguel",
+                 "oferta": false,
+                 "vigencia_oferta": null,
+                 "habitual": true,
+                 "cantidad": 2,
+                 "unidad_medida": "litros",
+                 "precio": 2.50,
+                 "adquirido": true
+              }
+           ]
+        },
+        {
+           "nombre": "Carrefour",
+           "direccion": "Calle Mayor, 50",
+           "geolocalizacion": {
+              "latitud": 41.385063,
+              "longitud": 2.173404
+           },
+           "productos": [
+              {
+                 "nombre": "Atún en aceite",
+                 "oferta": true,
+                 "vigencia_oferta": {
+                    "inicio": "2023-04-01",
+                    "fin": "2023-04-30"
+                 },
+                 "habitual": false,
+                 "cantidad": 5,
+                 "unidad_medida": "latas",
+                 "precio": 4.50,
+                 "adquirido": false
+              },
+              {
+                 "nombre": "Yogures Danone",
+                 "oferta": false,
+                 "vigencia_oferta": null,
+                 "habitual": true,
+                 "cantidad": 10,
+                 "unidad_medida": "unidades",
+                 "precio": 4.50,
+                 "adquirido": true
+              },
+              {
+                 "nombre": "Manzanas Golden",
+                 "oferta": true,
+                 "vigencia_oferta": {
+                    "inicio": "2023-04-01",
+                    "fin": "2023-04-15"
+                 },
+                 "habitual": true,
+                 "cantidad": 2,
+                 "unidad_medida": "kilos",
+                 "precio": 1.95,
+                 "adquirido": false
+              },
+              {
+                 "nombre": "Café Lavazza",
+                 "oferta": false,
+                 "vigencia_oferta": null,
+                 "habitual": false,
+                 "cantidad": 1,
+                 "unidad_medida": "unidades",
+                 "precio": 2.99,
+                 "adquirido": false
+              }
+           ]
+        }
+    ]
+}

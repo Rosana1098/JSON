@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<supermercados>
+  <element>
+    <nombre>Mercadona</nombre>
+    <direccion>Calle del Sol, 25</direccion>
+    <geolocalizacion>
+      <latitud>40.416775</latitud>
+      <longitud>-3.70379</longitud>
+    </geolocalizacion>
+    <productos>
+      <nombre>Leche Pascual</nombre>
+      <oferta>false</oferta>
+      <vigencia_oferta></vigencia_oferta>
+      <habitual>true</habitual>
+      <cantidad>1</cantidad>
+      <unidad_medida>litros</unidad_medida>
+      <precio>1.2</precio>
+      <adquirido>true</adquirido>
+    </productos>
+    <productos>
+      <nombre>Pan de molde Bimbo</nombre>
+      <oferta>true</oferta>
+      <vigencia_oferta>
+        <inicio>2023-04-15</inicio>
+        <fin>2023-04-22</fin>
+      </vigencia_oferta>
+      <habitual>true</habitual>
+      <cantidad>2</cantidad>
+      <unidad_medida>unidades</unidad_medida>
+      <precio>1.5</precio>
+      <adquirido>false</adquirido>
+    </productos>
+    <productos>
+      <nombre>Huevos camperos</nombre>
+      <oferta>true</oferta>
+      <vigencia_oferta>
+        <inicio>2023-04-10</inicio>
+        <fin>2023-04-30</fin>
+      </vigencia_oferta>
+      <habitual>false</habitual>
+      <cantidad>1</cantidad>
+      <unidad_medida>docenas</unidad_medida>
+      <precio>3.5</precio>
+      <adquirido>false</adquirido>
+    </productos>
+    <productos>
+      <nombre>Cerveza San Miguel</nombre>
+      <oferta>false</oferta>
+      <vigencia_oferta></vigencia_oferta>
+      <habitual>true</habitual>
+      <cantidad>2</cantidad>
+      <unidad_medida>litros</unidad_medida>
+      <precio>2.5</precio>
+      <adquirido>true</adquirido>
+    </productos>
+  </element>
+</supermercados>
